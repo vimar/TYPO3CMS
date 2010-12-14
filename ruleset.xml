@@ -14,12 +14,13 @@
 
 	<!-- Commenting -->
 	<rule ref="PEAR.Commenting.InlineComment" />
-	<rule ref="TYPO3.Commenting.DoubleSlashCommentsInNewLine" />
-	<rule ref="TYPO3.Commenting.SpaceAfterDoubleSlash" />
-	<rule ref="TYPO3.Commenting.ValidCommentLineLength" />
 	<rule ref="TYPO3.Commenting.ClassDocComment" />
+	<rule ref="TYPO3.Commenting.DoubleSlashCommentsInNewLine" />
 	<rule ref="TYPO3.Commenting.FunctionDocComment" />
 	<rule ref="TYPO3.Commenting.NoAuthorAnnotationInFunctionDocComment" />
+	<rule ref="TYPO3.Commenting.SpaceAfterDoubleSlash" />
+	<rule ref="TYPO3.Commenting.ValidCommentLineLength" />
+	<rule ref="TYPO3.Commenting.ValidCommentIndent" />
 
 	<!-- Control structures -->
 	<rule ref="Generic.ControlStructures.InlineControlStructure" />
@@ -40,6 +41,7 @@
 		</properties>
 	</rule>
 	<rule ref="Generic.Files.LineEndings" />
+	<rule ref="TYPO3.Files.EncodingUtf8" />
 	<rule ref="TYPO3.Files.IncludingFile" />
 	<rule ref="TYPO3.Files.LowercasedFilename" />
 	<rule ref="TYPO3.Files.OneClassPerFile" />
@@ -52,7 +54,7 @@
 	<rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
 	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
 	<rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
-	
+
 	<!-- Metrics -->
 
 	<!-- NamingConventions -->
@@ -75,6 +77,7 @@
 	<rule ref="TYPO3.PHP.CharacterBeforePHPOpeningTag" />
 	<rule ref="TYPO3.PHP.ClosingPHPTag" />
 	<rule ref="TYPO3.PHP.DisallowMultiplePHPTags" />
+	<rule ref="TYPO3.PHP.XClass" />
 
 	<!-- Scope -->
 	<rule ref="Squiz.Scope.MemberVarScope" />
@@ -82,15 +85,15 @@
 	<rule ref="TYPO3.Scope.AlwaysReturn" />
 
 	<!-- Strings -->
-	<rule ref="Generic.Strings.UnnecessaryStringConcat" />
 	<rule ref="Squiz.Strings.DoubleQuoteUsage" />
+	<rule ref="TYPO3.Strings.UnnecessaryStringConcat" />
 
 	<!-- Whitespace -->
 	<rule ref="Squiz.WhiteSpace.SemicolonSpacing" />
 	<rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
 	<rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing" />
+	<rule ref="TYPO3.WhiteSpace.AssignmentArithmeticAndComparisonSpace" />
 	<rule ref="TYPO3.WhiteSpace.AsteriksWhitespaces" />
 	<rule ref="TYPO3.WhiteSpace.DisallowSpaceIndent" />
-	<rule ref="TYPO3.WhiteSpace.AssignmentArithmeticAndComparisonSpace" />
 	<!--	<rule ref="TYPO3.WhiteSpace.NoTrailingWhitespace" />-->
 </ruleset>
