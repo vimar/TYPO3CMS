@@ -25,18 +25,21 @@
 		<email>laura.thewalt@wmdb.de</email>
 		<active>yes</active>
 	</developer>
-	<date>2010-10-04</date>
-	<time>09:11:49</time>
+	<date>2010-12-14</date>
+	<time>21:08:42</time>
 	<version>
-		<release>0.0.1</release>
-		<api>0.0.1</api>
+		<release>0.0.2</release>
+		<api>0.0.2</api>
 	</version>
 	<stability>
 		<release>alpha</release>
 		<api>alpha</api>
 	</stability>
 	<license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
-	<notes>Initial release</notes>
+	<notes>
+		- Add a check for XClass declaration
+		- Add a check for UTF-8 encoding
+	</notes>
 	<contents>
  		<dir name="/">
 			<file baseinstalldir="PHP/CodeSniffer/Standards/TYPO3v4" name="ruleset.xml" role="php" />
@@ -59,8 +62,8 @@
 			<package>
 				<name>PHPCS_TYPO3_SniffPool</name>
 				<channel>pear.typo3.org</channel>
-				<min>0.0.0</min>
-				<max>0.0.1</max>
+				<min>0.0.2</min>
+				<max>0.0.2</max>
 			</package>
 		</required>
 	</dependencies>
