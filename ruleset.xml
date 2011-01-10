@@ -11,6 +11,7 @@
 
 	<!-- CodeAnalysis -->
 	<rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall" />
+	<rule ref="Generic.CodeAnalysis.UnusedFunctionParameter" />
 
 	<!-- Commenting -->
 	<rule ref="PEAR.Commenting.InlineComment" />
