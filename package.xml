@@ -61,8 +61,8 @@
 			<package>
 				<name>PHPCS_TYPO3_SniffPool</name>
 				<channel>pear.typo3.org</channel>
-				<min>0.0.2</min>
-				<max>0.0.2</max>
+				<min>0.0.3</min>
+				<max>0.0.3</max>
 			</package>
 		</required>
 	</dependencies>
