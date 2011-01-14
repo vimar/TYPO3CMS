@@ -25,11 +25,11 @@
 		<email>laura.thewalt@wmdb.de</email>
 		<active>yes</active>
 	</developer>
-	<date>2010-12-14</date>
-	<time>21:08:42</time>
+	<date>2011-01-14</date>
+	<time>22:41:42</time>
 	<version>
-		<release>0.0.2</release>
-		<api>0.0.2</api>
+		<release>0.0.3</release>
+		<api>0.0.3</api>
 	</version>
 	<stability>
 		<release>alpha</release>
@@ -37,8 +37,8 @@
 	</stability>
 	<license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
 	<notes>
-		- Add a check for XClass declaration
-		- Add a check for UTF-8 encoding
+		- Add feature #11944: Activate Generic.CodeAnalysis.UnusedFunctionParameter
+		- Add feature #11943: Activate PEAR.Functions.ValidDefaultValue Sniff
 	</notes>
 	<contents>
  		<dir name="/">
@@ -68,6 +68,22 @@
 	</dependencies>
 	<phprelease />
 	<changelog>
+		<release>
+			<version>
+				<release>0.0.2</release>
+				<api>0.0.2</api>
+			</version>
+			<stability>
+				<release>alpha</release>
+				<api>alpha</api>
+			</stability>
+				<date>2010-12-14</date>
+			<license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+			<notes>
+				- Add a check for XClass declaration
+				- Add a check for UTF-8 encoding
+			</notes>
+		</release>
 		<release>
 			<version>
 				<release>0.0.1</release>
