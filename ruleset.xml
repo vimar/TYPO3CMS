@@ -24,7 +24,9 @@
 	<rule ref="Squiz.Classes.SelfMemberReference" />
 
 	<!-- Debug -->
-	<rule ref="TYPO3.Debug.DebugCode" />
+	<rule ref="TYPO3.Debug.DebugCode">
+		<exclude-pattern>*/t3lib/utility/class.t3lib_utility_debug.php</exclude-pattern>
+	</rule>
 
 	<!-- NamingConventions -->
 	<rule ref="TYPO3.NamingConventions.ValidVariableName" />
