@@ -2,6 +2,8 @@
 <ruleset name="TYPO3v4">
 	<description>The coding standard for TYPO3 Version 4 / 6. Have a look at http://forge.typo3.org/projects/team-php_codesniffer/wiki</description>
 
+	<exclude-pattern>*/typo3/sysext/indexed_search/class.doublemetaphone.php</exclude-pattern>
+
 	<!-- Arrays -->
 	<rule ref="Squiz.Arrays.ArrayBracketSpacing" />
 
