@@ -75,6 +75,7 @@
 	<!-- CodeAnalysis -->
 	<rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall" />
 	<rule ref="Generic.CodeAnalysis.UnusedFunctionParameter" />
+	<rule ref="Generic.CodeAnalysis.UnconditionalIfStatement" />
 
 	<!-- Functions -->
 	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
