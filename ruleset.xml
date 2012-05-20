@@ -45,7 +45,9 @@
 	<rule ref="TYPO3.PHP.ClosingPHPTag" />
 	<rule ref="Generic.PHP.UpperCaseConstant" />
 	<rule ref="Generic.PHP.DeprecatedFunctions" />
-	<rule ref="Squiz.PHP.Eval" />
+	<rule ref="Squiz.PHP.Eval">
+		<exclude-pattern>*/tests/*</exclude-pattern>
+	</rule>
 	<rule ref="Squiz.PHP.GlobalKeyword" />
 	<rule ref="TYPO3.PHP.XClass" /> <!-- @todo check this in wiki -->
 
