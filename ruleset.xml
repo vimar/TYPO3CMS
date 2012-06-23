@@ -94,6 +94,7 @@
 	<rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall" />
 	<rule ref="Generic.CodeAnalysis.UnusedFunctionParameter" />
 	<rule ref="Generic.CodeAnalysis.UnconditionalIfStatement" />
+	<rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier" />
 
 	<!-- Functions -->
 	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
