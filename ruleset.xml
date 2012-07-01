@@ -3,9 +3,13 @@
 	<description>The coding standard for TYPO3 Version 4 / 6. Have a look at http://forge.typo3.org/projects/team-php_codesniffer/wiki</description>
 
 	<!-- Exclude third party code -->
+	<exclude-pattern>*/.git/*</exclude-pattern>
+	<exclude-pattern>*/typo3/contrib/*</exclude-pattern>
 	<exclude-pattern>*/typo3/sysext/adodb/adodb/*</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/openid/lib/php-openid/*</exclude-pattern>
+	<exclude-pattern>*/typo3/sysext/extbase/*</exclude-pattern>
+	<exclude-pattern>*/typo3/sysext/fluid/*</exclude-pattern>
 	<exclude-pattern>*/typo3/sysext/indexed_search/class.doublemetaphone.php</exclude-pattern>
+	<exclude-pattern>*/typo3/sysext/openid/lib/php-openid/*</exclude-pattern>
 
 	<!-- Arrays -->
 	<rule ref="Squiz.Arrays.ArrayBracketSpacing" />
