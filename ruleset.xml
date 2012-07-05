@@ -106,7 +106,6 @@
 		<exclude-pattern>*/tests/*</exclude-pattern>
 	</rule>
 	<rule ref="Squiz.PHP.GlobalKeyword" />
-	<rule ref="../TYPO3/Sniffs/PHP/XClassSniff.php" /> <!-- @todo check this in wiki -->
 
 	<!-- Scope -->
 	<rule ref="Squiz.Scope.MemberVarScope" />
