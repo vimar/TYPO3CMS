@@ -6,6 +6,13 @@
 	<exclude-pattern>*/.git/*</exclude-pattern>
 	<exclude-pattern>*/typo3/contrib/*</exclude-pattern>
 	<exclude-pattern>*/typo3/sysext/adodb/adodb/*</exclude-pattern>
+	<exclude-pattern>*/typo3/sysext/em/res/js/ux/filter/*</exclude-pattern>
+	<exclude-pattern>*/typo3/sysext/em/res/js/ux/menu/*</exclude-pattern>
+	<exclude-pattern>*/typo3/sysext/em/res/js/ux/fileuploadfield.js</exclude-pattern>
+	<exclude-pattern>*/typo3/sysext/em/res/js/ux/GridFilters.js</exclude-pattern>
+	<exclude-pattern>*/typo3/sysext/em/res/js/ux/jslint.js</exclude-pattern>
+	<exclude-pattern>*/typo3/sysext/em/res/js/ux/RowPanelExpander.js</exclude-pattern>
+	<exclude-pattern>*/typo3/sysext/em/res/js/ux/searchfield.js</exclude-pattern>
 	<exclude-pattern>*/typo3/sysext/extbase/*</exclude-pattern>
 	<exclude-pattern>*/typo3/sysext/fluid/*</exclude-pattern>
 	<exclude-pattern>*/typo3/sysext/indexed_search/class.doublemetaphone.php</exclude-pattern>
