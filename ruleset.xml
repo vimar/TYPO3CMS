@@ -90,6 +90,7 @@
 	<!-- Strings -->
 	<rule ref="../TYPO3/Sniffs/Strings/UnnecessaryStringConcatSniff.php" />
 	<rule ref="Squiz.Strings.DoubleQuoteUsage" />
+	<rule ref="../TYPO3/Sniffs/Strings/ConcatenationSpacingSniff.php" />
 
 	<!-- CodeAnalysis -->
 	<rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall" />
