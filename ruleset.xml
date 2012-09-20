@@ -4,19 +4,22 @@
 
 	<!-- Exclude third party code -->
 	<exclude-pattern>*/.git/*</exclude-pattern>
-	<exclude-pattern>*/typo3/contrib/*</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/adodb/adodb/*</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/em/res/js/ux/filter/*</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/em/res/js/ux/menu/*</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/em/res/js/ux/fileuploadfield.js</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/em/res/js/ux/GridFilters.js</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/em/res/js/ux/jslint.js</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/em/res/js/ux/RowPanelExpander.js</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/em/res/js/ux/searchfield.js</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/extbase/*</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/fluid/*</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/indexed_search/class.doublemetaphone.php</exclude-pattern>
-	<exclude-pattern>*/typo3/sysext/openid/lib/php-openid/*</exclude-pattern>
+	<exclude-pattern>*typo3/contrib/*</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/adodb/adodb/*</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/em/res/js/ux/filter/*</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/em/res/js/ux/menu/*</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/em/res/js/ux/fileuploadfield.js</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/em/res/js/ux/GridFilters.js</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/em/res/js/ux/jslint.js</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/em/res/js/ux/RowPanelExpander.js</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/em/res/js/ux/searchfield.js</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/extbase/*</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/fluid/*</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/indexed_search/class.doublemetaphone.php</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/openid/lib/php-openid/*</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/statictemplates/media/scripts/testscript.inc</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/statictemplates/media/scripts/testscript_INT.php</exclude-pattern>
+	<exclude-pattern>*typo3/sysext/statictemplates/media/scripts/testscript_EXT.php</exclude-pattern>
 
 	<!-- Arrays -->
 	<rule ref="Squiz.Arrays.ArrayBracketSpacing" />
@@ -52,7 +55,7 @@
 
 	<!-- Debug -->
 	<rule ref="../TYPO3/Sniffs/Debug/DebugCodeSniff.php">
-		<exclude-pattern>*/t3lib/utility/class.t3lib_utility_debug.php</exclude-pattern>
+		<exclude-pattern>*t3lib/utility/class.t3lib_utility_debug.php</exclude-pattern>
 	</rule>
 
 	<!-- Files -->
