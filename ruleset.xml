@@ -52,6 +52,7 @@
 	<rule ref="../TYPO3/Sniffs/ControlStructures/ValidBreakStatementsInSwitchesSniff.php" />
 	<rule ref="../TYPO3/Sniffs/ControlStructures/AlignedBreakStatementSniff.php" />
 	<rule ref="../TYPO3/Sniffs/ControlStructures/ValidDefaultStatementsInSwitchesSniff.php" />
+	<rule ref="../TYPO3/Sniffs/ControlStructures/DisallowEachInLoopConditionSniff.php" />
 
 	<!-- Debug -->
 	<rule ref="../TYPO3/Sniffs/Debug/DebugCodeSniff.php">
