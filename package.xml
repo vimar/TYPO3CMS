@@ -1,118 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
     http://pear.php.net/dtd/tasks-1.0.xsd
     http://pear.php.net/dtd/package-2.0
     http://pear.php.net/dtd/package-2.0.xsd">
-	<name>PHPCS_TYPO3v4_Standard</name>
-	<channel>pear.typo3.org</channel>
-	<summary>TYPO3v4 Coding Standard</summary>
-	<description>This package contains a selection of sniffs which implements the Coding Guidelines for the Version 4 of TYPO3. Additionally you must install the pear.typo3.org/PHPCS_TYPO3_Standard_Pool package.</description>
-	<lead>
-		<name>Stefano Kowalke</name>
-		<user>sok</user>
-		<email>blueduck@gmx.net</email>
-		<active>yes</active>
-	</lead>
-	<lead>
-		<name>Andy Grunwald</name>
-		<user>sermerlie</user>
-		<email>andygrunwald@gmail.de</email>
-		<active>yes</active>
-	</lead>
-	<developer>
-		<name>Laura Thewalt</name>
-		<user>edcbylt</user>
-		<email>laura.thewalt@wmdb.de</email>
-		<active>no</active>
-	</developer>
-	<date>2012-05-19</date>
-	<version>
-		<release>0.0.3</release>
-		<api>0.0.3</api>
-	</version>
-	<stability>
-		<release>alpha</release>
-		<api>alpha</api>
-	</stability>
-	<license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
-	<notes>
-		- Add Generic.CodeAnalysis.UnconditionalIfStatement (Feature #11945)
-	</notes>
-	<contents>
- 		<dir name="/">
-			<file baseinstalldir="PHP/CodeSniffer/Standards/TYPO3v4" name="ruleset.xml" role="php" />
-			<file baseinstalldir="PHP/CodeSniffer/Standards/TYPO3v4" name="README.rst" role="php" />
-		</dir>
-	</contents>
-	<dependencies>
-		<required>
-			<php>
-				<min>5.2.1</min>
-			</php>
-			<pearinstaller>
-				<min>1.4.0b1</min>
-			</pearinstaller>
-			<package>
-				<name>PHP_CodeSniffer</name>
-				<channel>pear.php.net</channel>
-				<min>1.3.3</min>
-			</package>
-			<package>
-				<name>PHPCS_TYPO3_SniffPool</name>
-				<channel>pear.typo3.org</channel>
-				<min>0.0.3</min>
-				<max>0.0.5</max>
-			</package>
-		</required>
-	</dependencies>
-	<phprelease />
-	<changelog>
-		<release>
-			<version>
-				<release>0.0.3</release>
-				<api>0.0.3</api>
-			</version>
-			<stability>
-				<release>alpha</release>
-				<api>alpha</api>
-			</stability>
-			<date>2011-01-14</date>
-			<license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
-			<notes>
-				- Add feature #11944: Activate Generic.CodeAnalysis.UnusedFunctionParameter
-				- Add feature #11943: Activate PEAR.Functions.ValidDefaultValue Sniff
-			</notes>
-		</release>
-		<release>
-			<version>
-				<release>0.0.2</release>
-				<api>0.0.2</api>
-			</version>
-			<stability>
-				<release>alpha</release>
-				<api>alpha</api>
-			</stability>
-			<date>2010-12-14</date>
-			<license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
-			<notes>
-				- Add a check for XClass declaration
-				- Add a check for UTF-8 encoding
-			</notes>
-		</release>
-		<release>
-			<version>
-				<release>0.0.1</release>
-				<api>0.0.1</api>
-			</version>
-			<stability>
-				<release>alpha</release>
-				<api>alpha</api>
-			</stability>
-			<date>2010-10-04</date>
-			<license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
-			<notes>Initial release</notes>
-		</release>
-	</changelog>
+ <name>PHPCS_TYPO3v4_Standard</name>
+ <channel>pear.typo3.org</channel>
+ <summary>TYPO3v4 Coding Standard</summary>
+ <description>This package contains a selection of sniffs which implements the Coding Guidelines for the
+Version 4 of TYPO3. Additionally you must install the pear.typo3.org/PHPCS_TYPO3_Standard_Pool package.</description>
+ <lead>
+  <name>Stefano Kowalke</name>
+  <user>sok</user>
+  <email>blueduck@gmx.net</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Andy Grunwald</name>
+  <user>andygrunwald</user>
+  <email>andygrunwald@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>Laura Thewalt</name>
+  <user>edcbylt</user>
+  <email>laura.thewalt@wmdb.de</email>
+  <active>no</active>
+ </developer>
+ <date>2012-09-21</date>
+ <time>22:04:41</time>
+ <version>
+  <release>0.0.4</release>
+  <api>0.0.4</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+ <notes>
+- #39050: [BUGFIX] Sort the rules in ruleset.xml alphabetically by its category
+- #37320: [BUGFIX] Exclude Squiz.PHP.Eval-Sniff for UnitTests
+- #41203: [BUGFIX] Remove double include of Generic.CodeAnalysis.ForLoopWithTestFunctionCall
+- #37940: [FEATURE] Add new sniff for checking role &quot;String concatenation operator must be surrounded by
+spaces.&quot;
+- #41201: [FEATURE] Activate TYPO3.ControlStructures.DisallowEachInLoopCondition
+- #36870: [FEATURE] Exclude class.doublemetaphone.php from checking
+- #11945: [FEATURE] Activate Generic.CodeAnalysis.UnconditionalIfStatement
+- #36869: [FEATURE] Exclude class.t3lib_utility_debug.php from DebugCodeSniff
+- #38308: [TASK] Include Generic_Sniffs_Classes_DuplicateClassNameSniff
+- #38310: [TASK] Include Generic.CodeAnalysis.EmptyStatement
+- #38337: [TASK] Include Generic.CodeAnalysis.UnnecessaryFinalModifier
+- #38339: [TASK] Include Generic.CodeAnalysis.ForLoopWithTestFunctionCall
+- #39017: [TASK] Include ConcatenationSpacingSniff
+- #41113: [TASK] Exclude typo3/sysext/statictemplates/media/scripts/testscript*
+- #38685: [TASK] Remove XClass-Sniff from TYPO3-Package
+- #37505: [TASK] Exclude typo3/sysext/openid/lib/php-openid from checking
+- #13382: [TASK] Create README.TXT in the standard folders
+- #13249: [TASK] Move build artifacts into build/
+ </notes>
+ <contents>
+  <dir baseinstalldir="PHP/CodeSniffer/Standards/TYPO3v4" name="/">
+   <file name="README.rst" role="data" />
+   <file name="ruleset.xml" role="data" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+   <package>
+    <name>PHP_CodeSniffer</name>
+    <channel>pear.php.net</channel>
+    <min>1.3.6</min>
+   </package>
+   <package>
+    <name>PHPCS_TYPO3_SniffPool</name>
+    <channel>pear.typo3.org</channel>
+    <min>0.0.4</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.4</release>
+    <api>0.0.4</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-09-21</date>
+   <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+   <notes>
+- #39050: [BUGFIX] Sort the rules in ruleset.xml alphabetically by its category
+- #37320: [BUGFIX] Exclude Squiz.PHP.Eval-Sniff for UnitTests
+- #41203: [BUGFIX] Remove double include of Generic.CodeAnalysis.ForLoopWithTestFunctionCall
+- #37940: [FEATURE] Add new sniff for checking role &quot;String concatenation operator must be surrounded by
+spaces.&quot;
+- #41201: [FEATURE] Activate TYPO3.ControlStructures.DisallowEachInLoopCondition
+- #36870: [FEATURE] Exclude class.doublemetaphone.php from checking
+- #11945: [FEATURE] Activate Generic.CodeAnalysis.UnconditionalIfStatement
+- #36869: [FEATURE] Exclude class.t3lib_utility_debug.php from DebugCodeSniff
+- #38308: [TASK] Include Generic_Sniffs_Classes_DuplicateClassNameSniff
+- #38310: [TASK] Include Generic.CodeAnalysis.EmptyStatement
+- #38337: [TASK] Include Generic.CodeAnalysis.UnnecessaryFinalModifier
+- #38339: [TASK] Include Generic.CodeAnalysis.ForLoopWithTestFunctionCall
+- #39017: [TASK] Include ConcatenationSpacingSniff
+- #41113: [TASK] Exclude typo3/sysext/statictemplates/media/scripts/testscript*
+- #38685: [TASK] Remove XClass-Sniff from TYPO3-Package
+- #37505: [TASK] Exclude typo3/sysext/openid/lib/php-openid from checking
+- #13382: [TASK] Create README.TXT in the standard folders
+- #13249: [TASK] Move build artifacts into build/
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.0.3</release>
+    <api>0.0.3</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-01-14</date>
+   <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+   <notes>
+- Add feature #11944: Activate Generic.CodeAnalysis.UnusedFunctionParameter
+- Add feature #11943: Activate PEAR.Functions.ValidDefaultValue Sniff
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.0.2</release>
+    <api>0.0.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-12-14</date>
+   <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+   <notes>
+- Add a check for XClass declaration
+- Add a check for UTF-8 encoding
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-10-04</date>
+   <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+   <notes>
+Initial release
+   </notes>
+  </release>
+ </changelog>
 </package>
