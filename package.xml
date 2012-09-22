@@ -26,11 +26,11 @@ Version 4 of TYPO3. Additionally you must install the pear.typo3.org/PHPCS_TYPO3
   <email>laura.thewalt@wmdb.de</email>
   <active>no</active>
  </developer>
- <date>2012-09-21</date>
- <time>22:04:41</time>
+ <date>2012-09-22</date>
+ <time>19:06:55</time>
  <version>
-  <release>0.0.4</release>
-  <api>0.0.4</api>
+  <release>0.0.5</release>
+  <api>0.0.5</api>
  </version>
  <stability>
   <release>stable</release>
@@ -38,30 +38,12 @@ Version 4 of TYPO3. Additionally you must install the pear.typo3.org/PHPCS_TYPO3
  </stability>
  <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
  <notes>
-- #39050: [BUGFIX] Sort the rules in ruleset.xml alphabetically by its category
-- #37320: [BUGFIX] Exclude Squiz.PHP.Eval-Sniff for UnitTests
-- #41203: [BUGFIX] Remove double include of Generic.CodeAnalysis.ForLoopWithTestFunctionCall
-- #37940: [FEATURE] Add new sniff for checking role &quot;String concatenation operator must be surrounded by
-spaces.&quot;
-- #41201: [FEATURE] Activate TYPO3.ControlStructures.DisallowEachInLoopCondition
-- #36870: [FEATURE] Exclude class.doublemetaphone.php from checking
-- #11945: [FEATURE] Activate Generic.CodeAnalysis.UnconditionalIfStatement
-- #36869: [FEATURE] Exclude class.t3lib_utility_debug.php from DebugCodeSniff
-- #38308: [TASK] Include Generic_Sniffs_Classes_DuplicateClassNameSniff
-- #38310: [TASK] Include Generic.CodeAnalysis.EmptyStatement
-- #38337: [TASK] Include Generic.CodeAnalysis.UnnecessaryFinalModifier
-- #38339: [TASK] Include Generic.CodeAnalysis.ForLoopWithTestFunctionCall
-- #39017: [TASK] Include ConcatenationSpacingSniff
-- #41113: [TASK] Exclude typo3/sysext/statictemplates/media/scripts/testscript*
-- #38685: [TASK] Remove XClass-Sniff from TYPO3-Package
-- #37505: [TASK] Exclude typo3/sysext/openid/lib/php-openid from checking
-- #13382: [TASK] Create README.TXT in the standard folders
-- #13249: [TASK] Move build artifacts into build/
+- #41260: [BUGFIX] Standards was installed in wrong dir
  </notes>
  <contents>
   <dir baseinstalldir="PHP/CodeSniffer/Standards/TYPO3v4" name="/">
-   <file name="README.rst" role="data" />
-   <file name="ruleset.xml" role="data" />
+   <file name="README.rst" role="php" />
+   <file name="ruleset.xml" role="php" />
   </dir> <!-- / -->
  </contents>
  <dependencies>
@@ -80,12 +62,27 @@ spaces.&quot;
    <package>
     <name>PHPCS_TYPO3_SniffPool</name>
     <channel>pear.typo3.org</channel>
-    <min>0.0.4</min>
+    <min>0.0.5</min>
    </package>
   </required>
  </dependencies>
  <phprelease />
  <changelog>
+  <release>
+   <version>
+    <release>0.0.5</release>
+    <api>0.0.5</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-09-22</date>
+   <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+   <notes>
+- #41260: [BUGFIX] Standards was installed in wrong dir
+   </notes>
+  </release>
   <release>
    <version>
     <release>0.0.4</release>
