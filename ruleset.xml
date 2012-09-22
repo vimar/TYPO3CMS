@@ -104,6 +104,7 @@
 	<rule ref="Generic.PHP.DeprecatedFunctions" />
 	<rule ref="Squiz.PHP.Eval">
 		<exclude-pattern>*/tests/*</exclude-pattern>
+		<exclude-pattern>*typo3/sysext/install/Classes/CoreUpdates/LocalConfigurationUpdate.php</exclude-pattern>
 	</rule>
 	<rule ref="Squiz.PHP.GlobalKeyword" />
 
