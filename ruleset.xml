@@ -59,7 +59,9 @@
 	</rule>
 
 	<!-- Files -->
-	<rule ref="../TYPO3/Sniffs/Files/OneClassPerFileSniff.php" />
+	<rule ref="../TYPO3/Sniffs/Files/OneClassPerFileSniff.php">
+		<exclude-pattern>*typo3/sysext/core/Migrations/Code/LegacyClassesForIde.php</exclude-pattern>
+	</rule>
 	<rule ref="../TYPO3/Sniffs/Files/LowercasedFilenameSniff.php" />
 	<rule ref="../TYPO3/Sniffs/Files/EncodingUtf8Sniff.php" />
 	<rule ref="../TYPO3/Sniffs/Files/OneInterfacePerFileSniff.php" />
