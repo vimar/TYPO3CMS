@@ -32,7 +32,6 @@
 	<!-- Commenting -->
 	<rule ref="PEAR.Commenting.InlineComment" />
 	<rule ref="../TYPO3/Sniffs/Commenting/DoubleSlashCommentsInNewLineSniff.php" />
-	<rule ref="../TYPO3/Sniffs/Commenting/ValidCommentIndentSniff.php" />
 	<rule ref="../TYPO3/Sniffs/Commenting/ValidCommentLineLengthSniff.php" />
 	<rule ref="../TYPO3/Sniffs/Commenting/ClassDocCommentSniff.php" />
 	<rule ref="../TYPO3/Sniffs/Commenting/NoAuthorAnnotationInFunctionDocCommentSniff.php" />
