@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
-    http://pear.php.net/dtd/tasks-1.0.xsd
-    http://pear.php.net/dtd/package-2.0
-    http://pear.php.net/dtd/package-2.0.xsd">
- <name>PHPCS_TYPO3v4_Standard</name>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPCS_TYPO3CMS_Standard</name>
  <channel>pear.typo3.org</channel>
- <summary>TYPO3v4 Coding Standard</summary>
- <description>This package contains a selection of sniffs which implements the Coding Guidelines for the
-Version 4 of TYPO3. Additionally you must install the pear.typo3.org/PHPCS_TYPO3_Standard_Pool package.</description>
+ <summary>TYPO3CMS Coding Standard</summary>
+ <description>This package contains a selection of sniffs which implements the Coding Guidelines for TYPO3CMS which was former known as TYPO3. Additionally you must install the pear.typo3.org/PHPCS_TYPO3_Standard_Pool package.</description>
  <lead>
   <name>Stefano Kowalke</name>
   <user>sok</user>
