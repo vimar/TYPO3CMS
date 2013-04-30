@@ -118,8 +118,8 @@
 	<!--
 		@todo merge this two sniffs into one
 		Have a look at the wiki page for more informations
-	<rule ref="TYPO3.Whitespace.WhitespaceAfterCommentSigns" />
-	<rule ref="TYPO3.Commenting.SpaceAfterDoubleSlash" />
+	<rule ref="TYPO3SniffPool.Whitespace.WhitespaceAfterCommentSigns" />
+	<rule ref="TYPO3SniffPool.Commenting.SpaceAfterDoubleSlash" />
 	-->
 	<rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/AsteriksWhitespacesSniff.php" />
 	<rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing" />
