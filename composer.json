@@ -28,7 +28,7 @@
 	"require": {
 		"php": ">=5.2.1",
 		"composer/installers": "dev-phpcsStandardInstaller",
-		"typo3-ci/typo3sniffpool": "0.0.5"
+		"typo3-ci/typo3sniffpool": "dev-master"
 	},
 
 	"suggest": {
