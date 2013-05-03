@@ -1,25 +1,23 @@
 {
-	"name": "typo3-qa/typo3cms",
+	"name": "typo3-ci/typo3cms",
 	"type": "phpcodesniffer-standard",
 	"description": "This package contains a selection of sniffs which implements the Coding Guidelines for TYPO3CMS which was former known as TYPO3.",
 	"homepage": "http://forge.typo3.org/projects/show/team-php_codesniffer",
-	"keywords": ["typo3","standard","guidelines","codesniffer"],
+	"keywords": ["typo3", "standards", "phpcs", "coding guidelines", "codesniffer", "quality assurance", "cms"],
 	"license": "GPL-2.0",
 	"authors": [
-		{
-			"name": "Andy Grundwald",
-			"email": "andy.grundwald@gmail.com",
-			"role": "lead"
-		},
 		{
 			"name": "Stefano Kowalke",
 			"email": "blueduck@gmx.net",
 			"role": "lead"
+		},
+		{
+			"name": "Andy Grundwald",
+			"email": "andy.grundwald@gmail.com",
+			"role": "lead"
 		}
 	],
 
-	"version": "dev-master",
-	
 	"repositories": [
                 {
                         "type": "vcs",
@@ -29,14 +27,18 @@
 
 	"require": {
 		"php": ">=5.2.1",
-		"squizlabs/php_codesniffer": "*",
-		"composer/installers": "dev-phpcsStandardInstaller"
+		"composer/installers": "dev-phpcsStandardInstaller",
+		"typo3-ci/typo3sniffpool": "0.0.5"
+	},
+
+	"suggest": {
+		"typo3-ci/typo3flow": "0.0.2"
 	},
 
 	"support": {
 		"issues": "http://forge.typo3.org/projects/team-php_codesniffer/issues",
 		"wiki": "http://forge.typo3.org/projects/team-php_codesniffer/wiki",
-		"source": "https://github.com/typo3-ci/PHPCS_TYPO3CMS_Standard.git"
+		"source": "https://github.com/typo3-ci/TYPO3CMS.git"
 	}
 
 }
