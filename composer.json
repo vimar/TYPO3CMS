@@ -32,7 +32,7 @@
 	},
 
 	"suggest": {
-		"typo3-ci/typo3flow": "0.0.2"
+		"typo3-ci/typo3flow": ">=0.0.2"
 	},
 
 	"support": {
