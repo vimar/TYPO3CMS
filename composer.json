@@ -28,11 +28,11 @@
 	"require": {
 		"php": ">=5.2.1",
 		"composer/installers": "dev-phpcsStandardInstaller",
-		"typo3-ci/typo3sniffpool": "dev-master"
+		"typo3-ci/typo3sniffpool": ">=0.0.6"
 	},
 
 	"suggest": {
-		"typo3-ci/typo3flow": ">=0.0.2"
+		"typo3-ci/typo3flow": ">=0.0.3"
 	},
 
 	"support": {
