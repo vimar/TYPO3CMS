@@ -51,7 +51,7 @@
 	</rule>
 
 	<!-- Files -->
-	<rule ref="../TYPO3SniffPool/Sniffs/Files/OneClassPerFileSniff.php">
+	<rule ref="Generic.Files.OneClassPerFile">
 		<exclude-pattern>*typo3/sysext/core/Migrations/Code/LegacyClassesForIde.php</exclude-pattern>
 	</rule>
 	<rule ref="../TYPO3SniffPool/Sniffs/Files/LowercasedFilenameSniff.php" />
