@@ -56,6 +56,7 @@
 	</rule>
 	<rule ref="../TYPO3SniffPool/Sniffs/Files/LowercasedFilenameSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/Files/OneInterfacePerFileSniff.php" />
+	<rule ref="Generic.Files.ByteOrderMark" />
 	<rule ref="Generic.Files.LineEndings" />
 	<rule ref="Generic.Files.LineLength">
 		<properties>
