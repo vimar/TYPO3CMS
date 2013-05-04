@@ -93,7 +93,7 @@
 	<rule ref="Generic.PHP.DisallowShortOpenTag" />
 	<rule ref="Squiz.PHP.NonExecutableCode" />
 	<rule ref="../TYPO3SniffPool/Sniffs/PHP/DisallowMultiplePHPTagsSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/PHP/ClosingPHPTagSniff.php" />
+	<rule ref="Generic.PHP.ClosingPHPTag" />
 	<rule ref="Generic.PHP.UpperCaseConstant" />
 	<rule ref="Generic.PHP.DeprecatedFunctions" />
 	<rule ref="Squiz.PHP.Eval">
