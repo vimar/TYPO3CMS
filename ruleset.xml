@@ -55,7 +55,6 @@
 		<exclude-pattern>*typo3/sysext/core/Migrations/Code/LegacyClassesForIde.php</exclude-pattern>
 	</rule>
 	<rule ref="../TYPO3SniffPool/Sniffs/Files/LowercasedFilenameSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Files/EncodingUtf8Sniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/Files/OneInterfacePerFileSniff.php" />
 	<rule ref="Generic.Files.LineEndings" />
 	<rule ref="Generic.Files.LineLength">
