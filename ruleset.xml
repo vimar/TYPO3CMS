@@ -88,7 +88,7 @@
 	<!-- Operators -->
 
 	<!-- PHP -->
-	<rule ref="../TYPO3SniffPool/Sniffs/PHP/CharacterBeforePHPOpeningTagSniff.php" />
+	<rule ref="Generic.PHP.CharacterBeforePHPOpeningTag" />
 	<rule ref="../TYPO3SniffPool/Sniffs/PHP/CharacterAfterPHPClosingTagSniff.php" />
 	<rule ref="Generic.PHP.DisallowShortOpenTag" />
 	<rule ref="Squiz.PHP.NonExecutableCode" />
