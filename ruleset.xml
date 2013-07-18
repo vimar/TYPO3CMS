@@ -24,7 +24,6 @@
 
 	<!-- CodeAnalysis -->
 	<rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall" />
-	<rule ref="Generic.CodeAnalysis.UnusedFunctionParameter" />
 	<rule ref="Generic.CodeAnalysis.UnconditionalIfStatement" />
 	<rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier" />
 	<rule ref="Generic.CodeAnalysis.EmptyStatement" />
