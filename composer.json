@@ -18,17 +18,10 @@
 		}
 	],
 
-	"repositories": [
-                {
-                        "type": "vcs",
-                        "url": "https://github.com/Konafets/installers.git"
-                }
-        ],
-
 	"require": {
 		"php": ">=5.2.1",
-		"konafets/installers": "dev-phpcsStandardInstaller",
-		"typo3-ci/typo3sniffpool": "dev-master"
+		"typo3-ci/typo3sniffpool": ">=0.0.6",
+		"simplyadmire/composer-plugins": "*"
 	},
 
 	"suggest": {
