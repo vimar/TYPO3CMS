@@ -70,6 +70,7 @@
 		</properties>
 	</rule>
 	<rule ref="../TYPO3SniffPool/Sniffs/Files/IncludingFileSniff.php" />
+	<rule ref="../TYPO3SniffPool/Sniffs/Files/FilenameSniff.php" />
 
 	<!-- Formatting -->
 	<rule ref="Generic.Formatting.DisallowMultipleStatements" />
