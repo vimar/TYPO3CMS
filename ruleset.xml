@@ -48,6 +48,7 @@
 	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/DisallowEachInLoopConditionSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/UnusedVariableInForEachLoopSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/ExtraBracesByAssignmentInLoopSniff.php" />
+	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/SwitchDeclarationSniff.php" />
 
 	<!-- Debug -->
 	<rule ref="../TYPO3SniffPool/Sniffs/Debug/DebugCodeSniff.php">
