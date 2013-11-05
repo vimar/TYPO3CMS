@@ -71,6 +71,7 @@
 	</rule>
 	<rule ref="../TYPO3SniffPool/Sniffs/Files/IncludingFileSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/Files/FilenameSniff.php" />
+	<rule ref="../TYPO3SniffPool/Sniffs/Files/FileExtensionSniff.php" />
 
 	<!-- Formatting -->
 	<rule ref="Generic.Formatting.DisallowMultipleStatements" />
