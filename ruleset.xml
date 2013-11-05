@@ -113,10 +113,11 @@
 	<rule ref="../TYPO3SniffPool/Sniffs/Strings/ConcatenationSpacingSniff.php" />
 
 	<!-- Whitespace -->
-	<rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/DisallowSpaceIndentSniff.php" />
-	<rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
-	<rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/AssignmentArithmeticAndComparisonSpaceSniff.php" />
-	<rule ref="Squiz.WhiteSpace.SemicolonSpacing" />
+    <rule ref="Squiz.WhiteSpace.SemicolonSpacing" />
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
+    <rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/AssignmentArithmeticAndComparisonSpaceSniff.php" />
+    <rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/DisallowSpaceIndentSniff.php" />
+    <rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/ScopeClosingBraceSniff.php" />
 	<!--
 		@todo merge this two sniffs into one
 		Have a look at the wiki page for more informations
