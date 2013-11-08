@@ -25,9 +25,11 @@ The easiest way to install this standard is via PEAR. Just call this command fro
 ::
  
         $ pear channel-discover pear.typo3.org
+        $ pear pear config-set preferred_state alpha
         $ pear install typo3/TYPO3CMS
+        $ pear pear config-set preferred_state stable
  
-This command will also install the TYPO3SniffPool and the PHP_CodeSniffer into your PEAR path. 
+This command will also install the TYPO3SniffPool version 1.0.0-alpha and the PHP_CodeSniffer into your PEAR path.
 
 Be sure that the standard is there:
 
@@ -50,11 +52,11 @@ Create a composer.json in the root folder of your project and declare this stand
 
         {
                 "require": {
-                        "typo3-ci/typo3cms": "0.0.6"
+                        "typo3-ci/typo3cms": "1.0.0-alpha"
                 }
         }
 
-This will install version 0.0.6 of this standard. If you live on the edge, try:
+This will install version 1.0.0-alpha of this standard. If you live on the edge, try:
 
 ::
 
@@ -63,7 +65,6 @@ This will install version 0.0.6 of this standard. If you live on the edge, try:
                         "typo3-ci/typo3cms": "dev-master"
                 }
         }
-
 
 Since the package is managed with `Packagist <https://packagist.org>`_ this is all what you need.
 
