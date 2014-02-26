@@ -106,6 +106,7 @@
 		<exclude-pattern>*typo3/sysext/install/Classes/CoreUpdates/LocalConfigurationUpdate.php</exclude-pattern>
 	</rule>
 	<rule ref="Squiz.PHP.GlobalKeyword" />
+    <rule ref="Zend.Files.ClosingTag" />
 
 	<!-- Scope -->
 	<rule ref="Squiz.Scope.MemberVarScope" />
