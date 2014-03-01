@@ -1,3 +1,6 @@
+.. image:: https://badge.waffle.io/typo3-ci/typo3cms.png?label=ready&title=Ready 
+ :target: https://waffle.io/typo3-ci/typo3cms
+ :alt: 'Stories in Ready'
 =============================
 TYPO3CMS CodeSniffer standard
 =============================
