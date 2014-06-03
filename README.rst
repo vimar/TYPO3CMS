@@ -66,8 +66,18 @@ This will install version 1.0.0-alpha of this standard. If you live on the edge,
         {
                 "require": {
                         "typo3-ci/typo3cms": "dev-master"
-                }
+                },
+                "minimum-stability": "dev"
         }
+        
+::
+
+       {
+                "require": {
+                        "typo3-ci/typo3cms": "dev-develop"
+                },
+                "minimum-stability": "dev"
+       }
 
 Since the package is managed with `Packagist <https://packagist.org>`_ this is all what you need.
 
