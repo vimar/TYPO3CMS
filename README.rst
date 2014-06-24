@@ -28,7 +28,7 @@ ATTENTION: WE ARE DROPPING SUPPORT FOR PEAR
 Pear as distribution channel is awesome for the user, but painfull for developer who like to publish their software. 
 The documentation is incomplete and the tools to creation the packages are buggy. 
 
-We decided that we will drop the support for PEAR in the near feature. There is no time set but expected it more sooner then further away.
+We decided that we will drop the support for PEAR in the near feature.
 
 Please use Composer instead.
 
