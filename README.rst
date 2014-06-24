@@ -23,25 +23,15 @@ There are several ways to get the standard, which I am going to describe now. Th
 PEAR
 ----
 
-The easiest way to install this standard is via PEAR. Just call this command from your terminal:
- 
-::
- 
-        $ pear channel-discover pear.typo3.org
-        $ pear pear config-set preferred_state alpha
-        $ pear install typo3/TYPO3CMS
-        $ pear pear config-set preferred_state stable
- 
-This command will also install the TYPO3SniffPool version 1.0.0-alpha and the PHP_CodeSniffer into your PEAR path.
+ATTENTION: WE ARE DROPPING SUPPORT FOR PEAR 
 
-Be sure that the standard is there:
+Pear as distribution channel is awesome for the user, but painfull for developer who like to publish their software. 
+The documentation is incomplete and the tools to creation the packages are buggy. 
 
-::
+We decided that we will drop the support for PEAR in the near feature. There is no time set but expected it more sooner then further away.
 
-        $ phpcs -i
-        $ The installed coding standards are MySource, PEAR, PHPCS, PSR1, PSR2, Squiz, TYPO3CMS, TYPO3SniffPool and Zend
+Please use Composer instead.
 
-Have also a look at http://pear.typo3.org for more informations.
 
 Composer
 --------
