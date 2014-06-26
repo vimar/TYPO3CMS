@@ -20,12 +20,12 @@
 
 	"require": {
 		"php": ">=5.2.1",
-		"typo3-ci/typo3sniffpool": "dev-develop",
+		"typo3-ci/typo3sniffpool": "develop",
 		"simplyadmire/composer-plugins": "*"
 	},
 	
 	"require-dev": {
-		"typo3-ci/typo3sniffpool": "dev-develop",
+		"typo3-ci/typo3sniffpool": "develop",
 		"simplyadmire/composer-plugins": "*"
 	},
 
