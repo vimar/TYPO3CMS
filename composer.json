@@ -23,6 +23,11 @@
 		"typo3-ci/typo3sniffpool": ">=1.0.0-alpha",
 		"simplyadmire/composer-plugins": "*"
 	},
+	
+	"require-dev": {
+		"typo3-ci/typo3sniffpool": "dev-develop",
+		"simplyadmire/composer-plugins": "*"
+	},
 
 	"suggest": {
 		"typo3-ci/typo3flow": ">=0.0.3"
