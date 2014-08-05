@@ -19,14 +19,7 @@
 	],
 
 	"require": {
-		"php": ">=5.2.1",
-		"typo3-ci/typo3sniffpool": "dev-develop",
-		"simplyadmire/composer-plugins": "*"
-	},
-	
-	"require-dev": {
-		"typo3-ci/typo3sniffpool": "dev-develop",
-		"simplyadmire/composer-plugins": "*"
+		"typo3-ci/typo3sniffpool": ">=1.0.0-alpha"
 	},
 
 	"suggest": {
@@ -38,5 +31,4 @@
 		"wiki": "http://forge.typo3.org/projects/team-php_codesniffer/wiki",
 		"source": "https://github.com/typo3-ci/TYPO3CMS.git"
 	}
-
 }
