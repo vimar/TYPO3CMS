@@ -35,7 +35,7 @@
 	<rule ref="PEAR.Commenting.InlineComment" />
 	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/DoubleSlashCommentsInNewLineSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/ValidCommentLineLengthSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/ClassDocCommentSniff.php" />
+	<!--<rule ref="../TYPO3SniffPool/Sniffs/Commenting/ClassDocCommentSniff.php" />-->
 	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/NoAuthorAnnotationInFunctionDocCommentSniff.php" />
 
 	<!-- Control structures -->
@@ -121,6 +121,7 @@
     <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
     <rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/AssignmentArithmeticAndComparisonSpaceSniff.php" />
     <rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/DisallowSpaceIndentSniff.php" />
+    <!--<rule ref="Generic.WhiteSpace.DisallowSpaceIndentSniff.php" />-->
     <rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/ScopeClosingBraceSniff.php" />
 	<!--
 		@todo merge this two sniffs into one
