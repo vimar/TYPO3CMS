@@ -33,6 +33,7 @@
 
 	<!-- Commenting -->
 	<rule ref="PEAR.Commenting.InlineComment" />
+	<rule ref="Squiz.Commenting.DocCommentAlignment" />
 	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/DoubleSlashCommentsInNewLineSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/ValidCommentLineLengthSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/ClassCommentSniff.php" />
@@ -129,6 +130,5 @@
 	<rule ref="TYPO3SniffPool.Whitespace.WhitespaceAfterCommentSigns" />
 	<rule ref="TYPO3SniffPool.Commenting.SpaceAfterDoubleSlash" />
 	-->
-	<rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/AsteriksWhitespacesSniff.php" />
 	<rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing" />
 </ruleset>
