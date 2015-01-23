@@ -19,16 +19,11 @@
 	],
 
 	"require": {
-		"typo3-ci/typo3sniffpool": ">=1.0.0"
+		"typo3-ci/typo3sniffpool": "~1.0"
 	},
 	
 	"require-dev": {
-		"typo3-ci/typo3sniffpool": "dev-develop",
-		"simplyadmire/composer-plugins": "*"
-	},
-
-	"suggest": {
-		"typo3-ci/typo3flow": ">=0.0.3"
+		"phpunit/phpunit": "~4.3"
 	},
 
 	"support": {
