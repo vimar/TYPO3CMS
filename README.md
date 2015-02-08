@@ -33,7 +33,6 @@ Create a composer.json in the root folder of your project or extend the existing
 
 ```
 {
-	"minimum-stability": "dev",
 	"require": {
 		"typo3-ci/typo3cms": "dev-master"
 	}
