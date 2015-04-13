@@ -15,9 +15,6 @@
 	<exclude-pattern>*typo3/sysext/fluid/*</exclude-pattern>
 	<exclude-pattern>*typo3/sysext/indexed_search/Classes/Utility/DoubleMetaPhoneUtility.php</exclude-pattern>
 	<exclude-pattern>*typo3/sysext/openid/lib/php-openid/*</exclude-pattern>
-	<exclude-pattern>*typo3/sysext/statictemplates/media/scripts/testscript.inc</exclude-pattern>
-	<exclude-pattern>*typo3/sysext/statictemplates/media/scripts/testscript_INT.php</exclude-pattern>
-	<exclude-pattern>*typo3/sysext/statictemplates/media/scripts/testscript_EXT.php</exclude-pattern>
 	<exclude-pattern>*phpunit/Classes/Database/TestCase.php</exclude-pattern>
 	<exclude-pattern>*phpunit/Tests/*</exclude-pattern>
 	<exclude-pattern>*phpunit/Classes/Interface/AccessibleObject.php</exclude-pattern>
