@@ -54,7 +54,8 @@
 	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/DisallowElseIfConstructSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/ValidBreakStatementsInSwitchesSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/AlignedBreakStatementSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/ValidDefaultStatementsInSwitchesSniff.php" />
+	<!-- Deactivated due the issue at https://github.com/typo3-ci/TYPO3SniffPool/issues/46. Investigate if this is needed. -->
+	<!--<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/ValidDefaultStatementsInSwitchesSniff.php" />-->
 	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/DisallowEachInLoopConditionSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/UnusedVariableInForEachLoopSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/ExtraBracesByAssignmentInLoopSniff.php" />
