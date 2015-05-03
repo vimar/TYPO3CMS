@@ -44,7 +44,7 @@
 		<exclude-pattern>ext_tables.php</exclude-pattern>
 	</rule>
 	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/ClassCommentSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/FunctionDocCommentSniff.php" />
+	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/FunctionCommentSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/NoAuthorAnnotationInFunctionDocCommentSniff.php" />
 	<rule ref="Squiz.Commenting.DocCommentAlignment" />
 
