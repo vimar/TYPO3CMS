@@ -17,15 +17,28 @@ There are several ways to get the standard, which I am going to describe now. Th
 We support [Composer](https://getcomposer.org/), a dependency manager for PHP. 
  
 Create a composer.json in the root folder of your project or extend the existing one and declare this package as a dependency:
- 
+
+#### For install the develop branch (unstable)
+
 ```
 {
-	"minimum-stability": "alpha",
+	"minimum-stability": "dev",
+	"require": {
+		"typo3-ci/typo3cms": "dev-develop"
+	}
+}
+```
+
+#### For install the master branch (stable)
+
+```
+{
 	"require": {
 		"typo3-ci/typo3cms": "dev-master"
 	}
 }
 ```
+
 
 Since the package is managed with [Packagist](https://packagist.org/) this is all what you need.
 
