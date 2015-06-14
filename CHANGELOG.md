@@ -1,18 +1,28 @@
 # Change Log
 
-## [Unreleased](https://github.com/typo3-ci/TYPO3CMS/tree/HEAD)
+## [6.2.3](https://github.com/typo3-ci/TYPO3CMS/tree/6.2.3) (2015-06-14)
 
-[Full Changelog](https://github.com/typo3-ci/TYPO3CMS/compare/6.2.1...HEAD)
+[Full Changelog](https://github.com/typo3-ci/TYPO3CMS/compare/6.2.2...6.2.3)
 
 **Implemented enhancements:**
 
-- \[TASK\] Disable TYPO3SniffPool.WhiteSpace.AssignmentArithmeticAndComparisonSpace in favor of Squiz.WhiteSpace.OperatorSpacing [\#28](https://github.com/typo3-ci/TYPO3CMS/issues/28)
+- Updated composer dependencies
+
+## [6.2.2](https://github.com/typo3-ci/TYPO3CMS/tree/6.2.2) (2015-05-03)
+
+[Full Changelog](https://github.com/typo3-ci/TYPO3CMS/compare/6.2.1...6.2.2)
 
 **Closed issues:**
 
+- \[TASK\] Rename FunctionDocCommentSniff into FunctionCommentSniff [\#30](https://github.com/typo3-ci/TYPO3CMS/issues/30)
+
+- \[TASK\] Activate NoWhitespaceAtInDecrementSniff in standard [\#29](https://github.com/typo3-ci/TYPO3CMS/issues/29)
+
+- \[TASK\] Disable TYPO3SniffPool.WhiteSpace.AssignmentArithmeticAndComparisonSpace in favor of Squiz.WhiteSpace.OperatorSpacing [\#28](https://github.com/typo3-ci/TYPO3CMS/issues/28)
+
 - \[TASK\] Remove non-existent sniffs from ruleset [\#27](https://github.com/typo3-ci/TYPO3CMS/issues/27)
 
-- Move the sniff references inside the correct category [\#26](https://github.com/typo3-ci/TYPO3CMS/issues/26)
+- \[TASK\] Move the sniff references inside the correct category [\#26](https://github.com/typo3-ci/TYPO3CMS/issues/26)
 
 - \[TASK\] Remove some excludes from ruleset.xml [\#25](https://github.com/typo3-ci/TYPO3CMS/issues/25)
 
