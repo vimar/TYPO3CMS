@@ -1,5 +1,13 @@
 # Change Log
 
+## [6.2.4](https://github.com/typo3-ci/TYPO3CMS/tree/6.2.4) (2015-06-14)
+
+[Full Changelog](https://github.com/typo3-ci/TYPO3CMS/compare/6.2.3...6.2.4)
+
+**Implemented enhancements:**
+
+- Updated composer dependencies
+
 ## [6.2.3](https://github.com/typo3-ci/TYPO3CMS/tree/6.2.3) (2015-06-14)
 
 [Full Changelog](https://github.com/typo3-ci/TYPO3CMS/compare/6.2.2...6.2.3)
