@@ -16,8 +16,9 @@
 	<exclude-pattern>*typo3/sysext/indexed_search/Classes/Utility/DoubleMetaPhoneUtility.php</exclude-pattern>
 	<exclude-pattern>*typo3/sysext/openid/lib/php-openid/*</exclude-pattern>
 	<exclude-pattern>*phpunit/Classes/Database/TestCase.php</exclude-pattern>
-	<exclude-pattern>*phpunit/Tests/*</exclude-pattern>
 	<exclude-pattern>*phpunit/Classes/Interface/AccessibleObject.php</exclude-pattern>
+	<exclude-pattern>*/Tests/*</exclude-pattern>
+	<exclude-pattern>*/Composer/*</exclude-pattern>
 
 	<!-- Arrays -->
 	<rule ref="Squiz.Arrays.ArrayBracketSpacing" />
